@@ -1,0 +1,97 @@
+body {
+	padding-top: 83px
+}
+
+/*Header*/
+.header-wraper {
+	background-color: grey;
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index: 20;
+}
+.nav-li {
+	display: inline-block;
+}
+.logo img {
+	height: 80px;
+}
+.logo {
+	float: left;
+}
+.navigation {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+/*Background-image*/
+.bg-image {
+	background-image: url('../img/image2.jpg');
+	height: 500px;
+	width:600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top left;
+	position: relative;
+}
+.test2 {
+	position: absolute;
+	top:100px;
+	left: 100px;
+	color:red;
+}
+
+/*section*/
+.box-wraper {
+	width: 600px;
+	height: 600px;
+	background-color: yellow;
+	position: relative;
+}
+.box1 {
+	width: 300px;
+	height: 300px;
+	background-color: red;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	z-index: 2;
+}
+.box2 {
+	width: 300px;
+	height: 300px;
+	background-color: pink;
+	position: absolute;
+	top: 150px;
+	left: 150px;
+	z-index: 3;
+}
+.test {
+	position: absolute;
+	top: 100px;
+	right: 150px;
+	color: red;
+}
+.image-wraper {
+	position: relative;
+	width: 1028px;
+}
+.apple {
+	position: absolute;
+	left: 150px;
+	bottom: 0;
+	height: 80px;
+}
+/*.image {
+	width: 100%;
+}*/
+.sticky {
+	background-color: red;
+	position: sticky;
+	top:83px;
+	left:0;
+}
+
+
